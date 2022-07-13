@@ -1,0 +1,122 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+
+}
+.site-header{
+    margin-bottom: 28px;
+padding: 30px 0px;
+}
+.container{
+margin: 0 auto;
+padding: 0 20x;
+width: 1294px;
+}
+.header-middle{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.header-list{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+color: black;
+text-decoration: none;
+list-style: none;
+}
+.header-item{
+    color: black;
+}
+.header-item + .header-item {
+    margin-left: 33px;
+
+}
+.header-lupa{
+    margin-right: 22px;
+}
+.header-products{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.link-div{
+    margin-right: 27px;
+
+}
+.header-link{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+color: #000000;
+
+}
+.hero-end{
+    padding-left: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #DCE5E2;
+border-radius: 32px;
+}
+.main-title{
+
+    font-weight: 400;
+    font-size: 58px;
+  color: #000000;
+}
+.main-text{
+    margin-bottom: 19px 0 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+/* .main-end{ 
+margin: 10px 10px;
+} */
+.main-link{
+    display: inline-block;
+    width: 170px;
+padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+font-size: 18px;
+text-transform: capitalize;
+color: #000000;
+border: 2px solid #000000;
+border-radius: 200px;
+}
+
+/* .main-span{
+     width: 194px;
+    height: 2px;
+background: #000000;
+border-radius: 0px;
+} */
